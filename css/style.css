@@ -9,22 +9,18 @@ body{
     display: block;
     height: 90%;
     background-color: white;
-    margin-top: 0 auto;
-    
+    margin-top: 0 auto;  
 }
 .logo{
     float: left;
-    margin-left: 20px;
-    
+    margin-left: 20px; 
 }
-
 .title{
-    font-size: 50px;
+    font-size: 45px;
     font-family:  Helvetica, Arial, sans-serif;
     font-weight: bold;
     margin-top: 0%;
 }
-
 main{
     width: 70%;
     margin: auto;
@@ -68,15 +64,12 @@ main{
 section li{
     padding-bottom: 15px;
 }
-
 .NewTask{
     font-family:  Helvetica, Arial, sans-serif;
     margin-left: 50px;
     border-bottom: 100px;
-    padding-bottom: 30px;
     font-size: 20px;
 }
-
 .Today{
     font-family:  Helvetica, Arial, sans-serif;
     margin-left: 50px;
@@ -84,7 +77,6 @@ section li{
     padding-bottom: 40px;
     font-size: 20px;
 }
-
 .Upcoming{
     font-family:  Helvetica, Arial, sans-serif;
     margin-left: 1px;
