@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 /* proprietà titolo*/
 .container{
     display: block;
@@ -11,27 +12,32 @@ body{
     background-color: white;
     margin-top: 0 auto;  
 }
+
 .logo{
     float: left;
     margin-left: 20px; 
 }
+
 .title{
     font-size: 45px;
     font-family:  Helvetica, Arial, sans-serif;
     font-weight: bold;
     margin-top: 0%;
 }
+
 main{
     width: 70%;
     margin: auto;
     background-color: white;
     border-radius: 5px;
 }
+
 /* proprietà bottoni */
 .container2{
     padding: 5px;
     border-bottom:3px solid rgb(246, 248, 249); 
 }
+
 .button-nav{
     width: 80%;
     height: 50px;
@@ -39,37 +45,40 @@ main{
     margin: auto;
 }
 
-.button-task{
-    font-family:  Helvetica, Arial, sans-serif;
+.button-task, .button-section{
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 50px;
-    background-color:rgb(71, 173, 241);
-    color: white;
-    border: 1px;
-    border-radius: 5px;
-    padding: 6px;
-}
-.button-section{
-    font-family:  Helvetica, Arial, sans-serif;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    background-color: white;
-    color: grey;
-    border: 1px solid grey;
     border-radius: 5px;
     padding: 5px;
 }
+
+.button-task{
+    font-family:  Helvetica, Arial, sans-serif;
+    margin-left: 50px;
+    background-color:rgb(71, 173, 241);
+    color: white;
+    border: 1px; 
+}
+
+.button-section{
+    font-family:  Helvetica, Arial, sans-serif;
+    background-color: white;
+    color: grey;
+    border: 1px solid grey; 
+}
+
 /* lista cosa da fare  */
 section li{
     padding-bottom: 15px;
 }
+
 .NewTask{
     font-family:  Helvetica, Arial, sans-serif;
     margin-left: 50px;
     border-bottom: 100px;
     font-size: 20px;
 }
+
 .Today{
     font-family:  Helvetica, Arial, sans-serif;
     margin-left: 50px;
@@ -77,6 +86,7 @@ section li{
     padding-bottom: 40px;
     font-size: 20px;
 }
+
 .Upcoming{
     font-family:  Helvetica, Arial, sans-serif;
     margin-left: 1px;
@@ -84,6 +94,7 @@ section li{
     padding-bottom: 40px;
     font-size: 20px;
 }
+
 /* proprietà check and cross*/
 .check {
     display: inline-block;
@@ -98,6 +109,7 @@ section li{
     border-radius: 100%;
     box-sizing: border-box;
 }
+
 .cross{
     display: inline-block;
     text-align: center;
@@ -111,6 +123,7 @@ section li{
     border-radius: 100%;
     box-sizing: border-box;
 }
+
 /* proprietà  tag */
 .editorial, .q1goals, .recruiting, .mobile, .website, .sales {
     border-radius: 10px;
@@ -118,21 +131,27 @@ section li{
     color: white;
     font-size: 10px;
 }
+
 .editorial{
     background-color: rgb(69, 171, 234);
 }
+
 .q1goals{
     background-color: rgb(156, 114, 228);
 }
+
 .recruiting{
     background-color: rgb(100, 192, 169);
 }
+
 .mobile{
     background-color: rgb(242, 152, 51);
 }
+
 .sales{
     background-color: rgb(216, 99, 161);
 }
+
 .website{
     background-color: rgb(176, 201, 38);
 }
