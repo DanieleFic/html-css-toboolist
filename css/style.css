@@ -7,19 +7,22 @@ body{
 /* proprietà titolo*/
 .container{
     display: block;
-    height: 70%;
+    height: 90%;
     background-color: white;
     margin-top: 0 auto;
+    
 }
 .logo{
-    float: left; 
+    float: left;
     margin-left: 20px;
+    
 }
 
 .title{
     font-size: 50px;
     font-family:  Helvetica, Arial, sans-serif;
     font-weight: bold;
+    margin-top: 0%;
 }
 
 main{
